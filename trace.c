@@ -52,6 +52,7 @@
  */
 
 #include <stdio.h>
+#define __USE_GNU
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
@@ -63,7 +64,7 @@
 #include <sys/mman.h>
 #include <execinfo.h>
 
-#define __USE_GNU
+
 #include <ucontext.h>
 
 #include "trace.h"
